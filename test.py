@@ -14,3 +14,4 @@ webs = ['http://www.test.com',
 
 ip_correct = re.compile(r'\d+.\d+.\d+.\d+')
 print ip_correct.search(ip1).group()
+print ip_correct.search(ip2).group()
